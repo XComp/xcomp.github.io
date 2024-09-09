@@ -21,18 +21,27 @@
                 color: #DDDDDD;
             }
             .center {
-                text-align: center;
-                margin: auto;
+                display: table;
                 width: 50%;
+		height: 300px;
+                margin: auto;
                 padding: 10px;
+                text-align: center;
             }
+
+	    .center span {
+                display: table-cell;
+                vertical-align: middle;
+	    }
         </style>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="center">
-            <h1>New Portfolio is on its way</h1>
-            <p>I'm working on a new version of my portfolio. Stay tuned!</p>
+            <span>
+                <h1>Hi peepz!</h1>
+                <p>New portfolio coming soon. Stay tuned!</p>
+	    </span>
         </div>
     </body>
 </html>
